@@ -1,7 +1,7 @@
 package de.riagade.bot.task.timed;
 
 import de.riagade.bot.FabiAlertDiscordBot;
-import de.riagade.bot.task.feedback.WorldBossReminder;
+import de.riagade.bot.task.feedback.WorldBossTask;
 import de.riagade.genericDiscordBot.A_FeedbackTask;
 import de.riagade.genericDiscordBot.A_TimedTask;
 
@@ -15,6 +15,6 @@ public class DailyWorldBossTask extends A_TimedTask {
 
     @Override
     public A_FeedbackTask createFeedbackTask() {
-        return new WorldBossReminder((FabiAlertDiscordBot) getBot());
+        return new WorldBossTask((FabiAlertDiscordBot) getBot());
     }
 }

@@ -4,10 +4,10 @@ import de.riagade.bot.FabiAlertDiscordBot;
 import de.riagade.bot.util.ResourcesHelper;
 import de.riagade.genericDiscordBot.A_FeedbackTask;
 
-public class RacoonReminder extends A_FeedbackTask {
+public class WorldBossTask extends A_FeedbackTask {
     private FabiAlertDiscordBot bot;
 
-    public RacoonReminder(FabiAlertDiscordBot bot){
+    public WorldBossTask(FabiAlertDiscordBot bot){
         setBot(bot);
     }
 
@@ -25,6 +25,6 @@ public class RacoonReminder extends A_FeedbackTask {
     @Override
     public void runLogic() {
         getBot().sendMessage(ResourcesHelper.getResourceFileContent(getClass().getClassLoader(),
-                "racoonMessage.txt"));
+                "worldBossMessage.txt"));
     }
 }
