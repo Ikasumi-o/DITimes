@@ -24,8 +24,8 @@ public class FabiAlertDiscordBot extends A_TimedBot {
     @Override
     public List<A_TimedTask> getTasksList() {
         List<A_TimedTask> tasks = new ArrayList<>();
-        tasks.add(new DailyRacoonTask(this, "0 50 19 ? * *"));
-        tasks.add(new DailyWorldBossTask(this, "0 20 12,14,22 ? * *"));
+        tasks.add(new DailyRacoonTask(this, "0 40 19 ? * * *"));
+        tasks.add(new DailyWorldBossTask(this, "0 20 12,16,22 ? * * *"));
         return tasks;
     }
 }
