@@ -9,7 +9,7 @@ import java.util.Locale;
 public class BotInjector {
 
     public static void main(String[] args) {
-        FabiAlertDiscordBot fadb = new FabiAlertDiscordBot(System.getenv().get("BOT_TOKEN"),
+        FabiAlertDiscordBot fadb = new FabiAlertDiscordBot(System.getenv().get("NzYyNTYzNjU1Nzc3OTEwNzk2.X3q-vw.tGkj0NbaelKoiDIeEUAqZ-NqjY0"),
                 getLongFromString(System.getenv().get("GUILD_ID")),
                 getLongFromString(System.getenv().get("CHANNEL_ID")),
                 Locale.GERMANY);
