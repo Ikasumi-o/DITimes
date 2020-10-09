@@ -1,7 +1,7 @@
 package de.riagade.bot.task.timed;
 
 import de.riagade.bot.FabiAlertDiscordBot;
-import de.riagade.bot.task.feedback.RacoonTask;
+import de.riagade.bot.task.feedback.GuildBallTask;
 import de.riagade.genericDiscordBot.A_FeedbackTask;
 import de.riagade.genericDiscordBot.A_TimedTask;
 
