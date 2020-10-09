@@ -7,7 +7,7 @@ import de.riagade.genericDiscordBot.A_FeedbackTask;
 public class WeeklyOverlordTask extends A_FeedbackTask {
     private FabiAlertDiscordBot bot;
 
-    public GuildBallTask(FabiAlertDiscordBot bot){
+    public WeeklyOverlordTask(FabiAlertDiscordBot bot){
         setBot(bot);
     }
 
