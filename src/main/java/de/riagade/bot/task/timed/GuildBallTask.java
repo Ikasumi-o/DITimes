@@ -15,6 +15,6 @@ public class GuildBallTask extends A_TimedTask {
 
     @Override
     public A_FeedbackTask createFeedbackTask() {
-        return new GuildBallTask((FabiAlertDiscordBot) getBot());
+        return new RacoonTask((FabiAlertDiscordBot) getBot());
     }
 }
