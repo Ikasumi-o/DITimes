@@ -15,6 +15,6 @@ public class RuinsBossTask extends A_TimedTask {
 
     @Override
     public A_FeedbackTask createFeedbackTask() {
-        return new RacoonTask((FabiAlertDiscordBot) getBot());
+        return new RuinsBossTask((FabiAlertDiscordBot) getBot());
     }
 }
