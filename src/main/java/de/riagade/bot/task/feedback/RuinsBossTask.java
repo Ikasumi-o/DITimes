@@ -7,7 +7,7 @@ import de.riagade.genericDiscordBot.A_FeedbackTask;
 public class RuinsBossTask extends A_FeedbackTask {
     private FabiAlertDiscordBot bot;
 
-    public GuildBallTask(FabiAlertDiscordBot bot){
+    public RuinsBossTask(FabiAlertDiscordBot bot){
         setBot(bot);
     }
 
