@@ -15,6 +15,6 @@ public class WeeklyOverlordTask extends A_TimedTask {
 
     @Override
     public A_FeedbackTask createFeedbackTask() {
-        return new RacoonTask((FabiAlertDiscordBot) getBot());
+        return new WeeklyOverlordTask((FabiAlertDiscordBot) getBot());
     }
 }
