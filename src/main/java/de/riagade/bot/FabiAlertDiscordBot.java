@@ -30,11 +30,11 @@ public class FabiAlertDiscordBot extends A_TimedBot {
     public List<A_TimedTask> getTasksList() {
         List<A_TimedTask> tasks = new ArrayList<>();
         tasks.add(new DailyRacoonTask(this, "0 40 19 ? * * *"));
-        tasks.add(new DailyWorldBossTask(this, "0 20 12,16,22 ? * * *"));
-        tasks.add(new GuildBallTask(this, "0 20 20 ? * SUN,MON,WED,FRI *"));
-	tasks.add(new GuildVsGuildTask(this, "0 50 20 ? * TUE,THU *"));
-	tasks.add(new RuinsBossTask(this, "0 50 14,22 ? * FRI,SAT *"));
-        tasks.add(new WeeklyOverlordTask(this, "0 50 20 ? * FRI *"));
+        tasks.add(new DailyWorldBossTask(this, "0 20 10,14,22 ? * * *"));
+        tasks.add(new GuildBallTask(this, "0 20 18 ? * SUN,MON,WED,FRI *"));
+	tasks.add(new GuildVsGuildTask(this, "0 50 18 ? * TUE,THU *"));
+	tasks.add(new RuinsBossTask(this, "0 50 12,20 ? * FRI,SAT *"));
+        tasks.add(new WeeklyOverlordTask(this, "0 50 18 ? * FRI *"));
         return tasks;
     }
 }
