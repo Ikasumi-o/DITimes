@@ -7,7 +7,7 @@ import de.riagade.genericDiscordBot.A_FeedbackTask;
 public class GuildVsGuildTask extends A_FeedbackTask {
     private FabiAlertDiscordBot bot;
 
-    public GuildBallTask(FabiAlertDiscordBot bot){
+    public GuildVsGuildTask(FabiAlertDiscordBot bot){
         setBot(bot);
     }
 
