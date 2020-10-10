@@ -5,11 +5,11 @@ import de.riagade.bot.task.feedback.RuinsBossTask;
 import de.riagade.genericDiscordBot.A_FeedbackTask;
 import de.riagade.genericDiscordBot.A_TimedTask;
 
-public class RuinsBossTask extends A_TimedTask {
+public class FrSaRuinsBossTask extends A_TimedTask {
     /**
      * @param cronExpression the cron expression to calculate the next execution
      */
-    public RuinsBossTask(FabiAlertDiscordBot bot, String cronExpression) {
+    public FrSaRuinsBossTask(FabiAlertDiscordBot bot, String cronExpression) {
         super(bot, cronExpression);
     }
 
