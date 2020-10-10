@@ -25,6 +25,6 @@ public class WeeklyOverlordTask extends A_FeedbackTask {
     @Override
     public void runLogic() {
         getBot().sendMessage(ResourcesHelper.getResourceFileContent(getClass().getClassLoader(),
-                "WeeklyOverlordTask.txt"));
+                "WeeklyOverlordMessage.txt"));
     }
 }
