@@ -5,11 +5,11 @@ import de.riagade.bot.task.feedback.GuildVsGuildTask;
 import de.riagade.genericDiscordBot.A_FeedbackTask;
 import de.riagade.genericDiscordBot.A_TimedTask;
 
-public class GuildVsGuildTask extends A_TimedTask {
+public class TueThuGuildVsGuildTask extends A_TimedTask {
     /**
      * @param cronExpression the cron expression to calculate the next execution
      */
-    public GuildVsGuildTask(FabiAlertDiscordBot bot, String cronExpression) {
+    public TueThuGuildVsGuildTask(FabiAlertDiscordBot bot, String cronExpression) {
         super(bot, cronExpression);
     }
 
