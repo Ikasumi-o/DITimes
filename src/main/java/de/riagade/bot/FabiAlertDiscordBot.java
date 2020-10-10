@@ -2,9 +2,9 @@ package de.riagade.bot;
 
 import de.riagade.bot.task.timed.DailyRacoonTask;
 import de.riagade.bot.task.timed.DailyWorldBossTask;
-import de.riagade.bot.task.timed.GuildBallTask;
-import de.riagade.bot.task.timed.GuildVsGuildTask;
-import de.riagade.bot.task.timed.RuinsBossTask;
+import de.riagade.bot.task.timed.MoWedFriSoGuildBallTask;
+import de.riagade.bot.task.timed.TueThuGuildVsGuildTask;
+import de.riagade.bot.task.timed.FrSaRuinsBossTask;
 import de.riagade.bot.task.timed.WeeklyOverlordTask;
 import de.riagade.genericDiscordBot.A_TimedBot;
 import de.riagade.genericDiscordBot.A_TimedTask;
@@ -31,9 +31,9 @@ public class FabiAlertDiscordBot extends A_TimedBot {
         List<A_TimedTask> tasks = new ArrayList<>();
         tasks.add(new DailyRacoonTask(this, "0 40 19 ? * * *"));
         tasks.add(new DailyWorldBossTask(this, "0 20 10,14,22 ? * * *"));
-        tasks.add(new GuildBallTask(this, "0 20 18 ? * SUN,MON,WED,FRI *"));
-	tasks.add(new GuildVsGuildTask(this, "0 50 18 ? * TUE,THU *"));
-	tasks.add(new RuinsBossTask(this, "0 50 12,20 ? * FRI,SAT *"));
+        tasks.add(new MoWedFriSoGuildBallTask(this, "0 20 18 ? * SUN,MON,WED,FRI *"));
+	tasks.add(new TueThuGuildVsGuildTask(this, "0 50 18 ? * TUE,THU *"));
+	tasks.add(new FrSaRuinsBossTask(this, "0 50 12,20 ? * FRI,SAT *"));
         tasks.add(new WeeklyOverlordTask(this, "0 50 18 ? * FRI *"));
         return tasks;
     }
