@@ -25,6 +25,6 @@ public class GuildBallTask extends A_FeedbackTask {
     @Override
     public void runLogic() {
         getBot().sendMessage(ResourcesHelper.getResourceFileContent(getClass().getClassLoader(),
-                "GuildBallTask.txt"));
+                "GuildBallMessage.txt"));
     }
 }
