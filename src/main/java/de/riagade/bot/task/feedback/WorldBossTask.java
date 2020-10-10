@@ -4,10 +4,10 @@ import de.riagade.bot.FabiAlertDiscordBot;
 import de.riagade.bot.util.ResourcesHelper;
 import de.riagade.genericDiscordBot.A_FeedbackTask;
 
-public class WorldBossTask extends A_FeedbackTask {
+public class WeeklyWorldBossTask extends A_FeedbackTask {
     private FabiAlertDiscordBot bot;
 
-    public WorldBossTask(FabiAlertDiscordBot bot){
+    public WeeklyWorldBossTask(FabiAlertDiscordBot bot){
         setBot(bot);
     }
 
