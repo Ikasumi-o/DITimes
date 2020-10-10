@@ -25,6 +25,6 @@ public class GuildVsGuildTask extends A_FeedbackTask {
     @Override
     public void runLogic() {
         getBot().sendMessage(ResourcesHelper.getResourceFileContent(getClass().getClassLoader(),
-                "GuildVsGuildTask.txt"));
+                "GuildVsGuildMessage.txt"));
     }
 }
