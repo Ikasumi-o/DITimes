@@ -25,6 +25,6 @@ public class RuinsBossTask extends A_FeedbackTask {
     @Override
     public void runLogic() {
         getBot().sendMessage(ResourcesHelper.getResourceFileContent(getClass().getClassLoader(),
-                "RuinsBossTask.txt"));
+                "RuinsBossMessage.txt"));
     }
 }
