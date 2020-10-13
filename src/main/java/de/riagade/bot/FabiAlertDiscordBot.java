@@ -6,6 +6,7 @@ import de.riagade.bot.task.timed.MoWedFriSoGuildBallTask;
 import de.riagade.bot.task.timed.TueThuGuildVsGuildTask;
 import de.riagade.bot.task.timed.FrSaRuinsBossTask;
 import de.riagade.bot.task.timed.WeeklyOverlordTask;
+import de.riagade.bot.task.timed.TueDragonQuestTask;
 import de.riagade.genericDiscordBot.A_TimedBot;
 import de.riagade.genericDiscordBot.A_TimedTask;
 
@@ -35,6 +36,7 @@ public class FabiAlertDiscordBot extends A_TimedBot {
 	tasks.add(new TueThuGuildVsGuildTask(this, "0 50 18 ? * TUE,THU *"));
 	tasks.add(new FrSaRuinsBossTask(this, "0 50 12,20 ? * FRI,SAT *"));
         tasks.add(new WeeklyOverlordTask(this, "0 50 18 ? * FRI *"));
+	tasks.add(new TueDragonQuestTask(this, "0 50 17 ? * TUE *"));    
         return tasks;
     }
 }
