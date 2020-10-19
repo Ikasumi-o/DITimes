@@ -38,7 +38,7 @@ public class FabiAlertDiscordBot extends A_TimedBot {
 	tasks.add(new FrSaRuinsBossTask(this, "0 50 12,20 ? * FRI,SAT *"));
         tasks.add(new WeeklyOverlordTask(this, "0 50 18 ? * FRI *"));
 	tasks.add(new TueDragonQuestTask(this, "0 50 17 ? * TUE *"));
-	tasks.add(new DailieEventsOverviewMoTask(this, "0 0 8 ? * MON *")); 
+	tasks.add(new DailieEventsOverviewMoTask(this, "0 20 8 ? * MON *")); 
         return tasks;
     }
 }
