@@ -2,7 +2,7 @@
 package de.riagade.bot.task.timed;
 
 import de.riagade.bot.FabiAlertDiscordBot;
-import de.riagade.bot.task.feedback.SkyCastleFinalsTask;
+import de.riagade.bot.task.feedback.SkyCastleFinalTask;
 import de.riagade.genericDiscordBot.A_FeedbackTask;
 import de.riagade.genericDiscordBot.A_TimedTask;
 
