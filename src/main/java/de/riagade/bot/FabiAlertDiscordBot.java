@@ -54,7 +54,7 @@ public class FabiAlertDiscordBot extends A_TimedBot {
 	tasks.add(new DailieEventsOverviewSatTask(this, "0 0 8 ? * SAT *"));
 	tasks.add(new DailieEventsOverviewSunTask(this, "0 0 8 ? * SUN *"));
 	tasks.add(new DailySkyCastleBossTask(this, "0 30 17 ? * * *"));
-	tasks.add(new timed.SunSkyCastleFinalTask(this, "0 50 19 ? * SUN *"));
+	tasks.add(new SunSkyCastleFinalTask(this, "0 50 19 ? * SUN *"));
         return tasks;
     }
 }
