@@ -14,6 +14,8 @@ import de.riagade.bot.task.timed.DailieEventsOverviewThuTask;
 import de.riagade.bot.task.timed.DailieEventsOverviewFriTask;
 import de.riagade.bot.task.timed.DailieEventsOverviewSatTask;
 import de.riagade.bot.task.timed.DailieEventsOverviewSunTask;
+import de.riagade.bot.task.timed.DailySkyCastleBossTask;
+import de.riagade.bot.task.timed.SunSkyCastleFinalTask;
 import de.riagade.genericDiscordBot.A_TimedBot;
 import de.riagade.genericDiscordBot.A_TimedTask;
 
@@ -51,6 +53,8 @@ public class FabiAlertDiscordBot extends A_TimedBot {
 	tasks.add(new DailieEventsOverviewFriTask(this, "0 0 8 ? * FRI *"));
 	tasks.add(new DailieEventsOverviewSatTask(this, "0 0 8 ? * SAT *"));
 	tasks.add(new DailieEventsOverviewSunTask(this, "0 0 8 ? * SUN *"));
+	tasks.add(new DailySkyCastleBossTask(this, "0 30 17 ? * * *"));
+	tasks.add(new timed.SunSkyCastleFinalTask(this, "0 50 19 ? * SUN *"));
         return tasks;
     }
 }
