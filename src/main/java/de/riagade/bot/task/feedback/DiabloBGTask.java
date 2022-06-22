@@ -5,10 +5,10 @@ import de.riagade.bot.FabiAlertDiscordBot;
 import de.riagade.bot.util.ResourcesHelper;
 import de.riagade.genericDiscordBot.A_FeedbackTask;
 
-public class DiabloBattlegroundTask extends A_FeedbackTask {
+public class DiabloBGTask extends A_FeedbackTask {
     private FabiAlertDiscordBot bot;
 
-    public DiabloBattlegroundTask(FabiAlertDiscordBot bot){
+    public DiabloBGTask(FabiAlertDiscordBot bot){
         setBot(bot);
     }
 
