@@ -23,7 +23,7 @@ public class FabiAlertDiscordBot extends A_TimedBot {
     @Override
     public List<A_TimedTask> getTasksList() {
         List<A_TimedTask> tasks = new ArrayList<>();
-        tasks.add(new DailyDiabloBattlegroundTask(this, "0 0 8,12,18,22 ? * * *"));
+        tasks.add(new DailyDiabloBattlegroundTask(this, "0 0 6,10,16,20 ? * * *"));
         return tasks;
     }
 }
