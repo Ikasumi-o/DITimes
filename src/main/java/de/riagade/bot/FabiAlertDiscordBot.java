@@ -1,5 +1,5 @@
 package de.riagade.bot;
-
+import de.riagade.bot.task.timed.DailyDiabloVersammlungTask;
 import de.riagade.bot.task.timed.DailyDiabloBattlegroundTask;
 import de.riagade.genericDiscordBot.A_TimedBot;
 import de.riagade.genericDiscordBot.A_TimedTask;
@@ -24,6 +24,7 @@ public class FabiAlertDiscordBot extends A_TimedBot {
     public List<A_TimedTask> getTasksList() {
         List<A_TimedTask> tasks = new ArrayList<>();
         tasks.add(new DailyDiabloBattlegroundTask(this, "0 0 6,10,16,20 ? * * *"));
+        tasks.add(new DailyDiabloVersammlungTask(this, "0 0 16 ? * * *"));
         return tasks;
     }
 }
