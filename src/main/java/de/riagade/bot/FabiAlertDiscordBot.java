@@ -26,7 +26,7 @@ public class FabiAlertDiscordBot extends A_TimedBot {
         List<A_TimedTask> tasks = new ArrayList<>();
         tasks.add(new DailyDiabloBattlegroundTask(this, "0 0 6,10,16,20 ? * * *"));
         tasks.add(new DailyDiabloVersammlungTask(this, "0 0 16 ? * * *"));
-        tasks.add(new DailyDiabloSchatzkammerTask(this, "0 0 10,15 ? * * *"));
+        tasks.add(new DailyDiabloSchatzkammerTask(this, "0 0 10,17 ? * * *"));
         return tasks;
     }
 }
