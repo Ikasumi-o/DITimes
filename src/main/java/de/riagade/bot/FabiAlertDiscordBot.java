@@ -2,6 +2,7 @@ package de.riagade.bot;
 import de.riagade.bot.task.timed.DailyDiabloSchatzkammerTask;
 import de.riagade.bot.task.timed.DailyDiabloVersammlungTask;
 import de.riagade.bot.task.timed.DailyDiabloBattlegroundTask;
+import de.riagade.bot.task.timed.TueFriDiabloKutscheTask;
 import de.riagade.genericDiscordBot.A_TimedBot;
 import de.riagade.genericDiscordBot.A_TimedTask;
 
@@ -27,6 +28,8 @@ public class FabiAlertDiscordBot extends A_TimedBot {
         tasks.add(new DailyDiabloBattlegroundTask(this, "0 0 6,10,16,20 ? * * *"));
         tasks.add(new DailyDiabloVersammlungTask(this, "0 0 16 ? * MON,TUE,WED,THU,FRI,SAT *"));
         tasks.add(new DailyDiabloSchatzkammerTask(this, "0 0 10,17 ? * * *"));
+        tasks.add(new TueFriDiabloKutscheTask(this, "0 50 9,19 ? * WED,SAT *"));
+        tasks.add(new TueFriDiabloKutscheTask(this, "0 20 18 ? * WED,SAT *"));
         return tasks;
     }
 }
